@@ -15,8 +15,8 @@
 
 **[Get the SecureWave APK from GitHub Releases](../../releases)**
 
-APK SHA-256
-da90f4be465e5c1637ace5db29563175d391f29bffd9224730e2365de38b3347
+SHA-256 checksum
+ec85f0c6b987d10ea0cfdde193d773951235707f340c18a553deaca75149fc88
 
 This repository currently distributes **compiled Android APKs only**. The application source code is **not being published at this stage**. Each public release should provide the APK, its version, and release notes; GitHub automatically displays a SHA-256 digest for each uploaded release asset. Download only from this repository's Releases page.
 

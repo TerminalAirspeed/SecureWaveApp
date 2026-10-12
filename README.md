@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/33358694/README.md)
 # SecureWave
 
-**Private messaging, encrypted file storage, and digital radio messaging for Android.**
+**Encrypted messaging and encrypted or plain text radio messaging. Android only.**
 
 **PUBLIC BETA** · Android 10+ · APK download only
 
@@ -24,31 +24,12 @@ This repository currently distributes **compiled Android APKs only**. The applic
 
 **Updates:** Install a newer official APK over the existing installation to preserve app data, provided it uses the same application ID and signing certificate. **Do not uninstall SecureWave just to upgrade**—uninstalling can erase its contacts, protected keys, and stored content. GitHub APK releases do not update automatically through the Play Store.
 
-### Verify the APK with SHA-256
+### Verify the APK with SHA-256  
+ec85f0c6b987d10ea0cfdde193d773951235707f340c18a553deaca75149fc88
 
 **SHA-256** is a cryptographic fingerprint of a file, written as 64 hexadecimal characters. The same downloaded APK should produce the same fingerprint as the published APK; a mismatch means the file is not identical and **should not be installed**.
 
 GitHub computes and displays a `sha256:` digest next to each uploaded release asset. The maintainer should also copy **that exact APK digest** into the release notes so it is easy to find. Use the digest for the *signed APK in that release*, not for an older APK or the source archive.
-
-To check your download, run one of these commands with your actual APK filename:
-
-**Windows (PowerShell)**
-
-```powershell
-Get-FileHash .\SecureWave.apk -Algorithm SHA256
-```
-
-**macOS**
-
-```bash
-shasum -a 256 SecureWave.apk
-```
-
-**Linux**
-
-```bash
-sha256sum SecureWave.apk
-```
 
 Compare all 64 characters with the GitHub release digest. A matching hash verifies file integrity relative to the published digest, but it does not replace obtaining the APK from a trusted release page and checking its signing identity.
 
@@ -60,9 +41,11 @@ SecureWave performs supported encryption and decryption **on the Android device*
 | --- | --- |
 | **Secure Text** | Create and read contact-specific, authenticated encrypted messages. Hand off the encrypted payload through a messaging or sharing app you choose; the recipient explicitly imports the payload. |
 | **Secure Files** | Keep files in an encrypted local vault and exchange authenticated encrypted file payloads with a contact. |
-| **Secure Radio** | Transmit encrypted **digital messages/data** as modem audio through compatible external radio and audio equipment. |
-| **Open Radio** | A separate radio mode for **unencrypted** communication. **Do not use this mode for confidential information.** |
+| **Secure Radio** | Transmit encrypted **digital messages/data** as modem audio through compatible external radio and audio equipment. Digirig Lite and associated cables. |
+| **Open Radio** | A separate radio mode for **unencrypted** communication. Digirig Lite and associated cables. **Do not use this mode for confidential information.** |
 | **Contacts** | Search names, mark Favorites, identify the selected recipient, and view contact security status. |
+
+### Digirig Lite and associated cables can be used in a fashion similar to texting on a phone.
 
 ## App screenshots
 
@@ -80,7 +63,7 @@ Screenshots from the **SecureWave 1.0.0-beta.3** Android public beta. Click a th
 |:---:|
 | <a href="screenshots/open-radio.png"><img src="screenshots/open-radio.png" alt="Open Radio unencrypted messaging screen" width="200"></a> |
 
-> **Radio screenshot note:** The radio images show a test setup without a detected USB interface; they do not indicate an active radio link. **Open Radio is unencrypted.**
+> **Radio screenshot note:** The radio images show a test setup without a detected USB interface (Digirig Lite). **Open Radio is unencrypted.**
 
 ### Security features
 
@@ -121,7 +104,7 @@ A copied manual key is a **secret**, even if SecureWave marks clipboard data sen
 
 ## Security limitations
 
-SecureWave is designed around authenticated encryption and local protection, but **encryption is not a guarantee of end-to-end operational security**.
+SecureWave is designed around authenticated encryption and local protection.
 
 - **Verify identities.** A pairing process is not trusted until both parties compare the complete verification code.
 - **Shared groups do not authenticate individual senders.** Anyone holding a manual group key may claim a sender name.

@@ -80,13 +80,10 @@ Screenshots from the **SecureWave 1.0.0-beta.3** Android public beta. Click a th
  
  ## SecureWave Radio Hardware Setup
 
-
-
-**Note:** Radio compatibility, audio routing, PTT operation, and transmission authorization depend on the equipment and applicable radio regulations.
  
 **Note:** Radio compatibility, audio routing, PTT operation, and transmission authorization depend on the equipment and applicable radio regulations.
 
-> **Radio screenshot note:** The radio images show a test setup without a detected USB interface (Digirig Lite). **Open Radio is unencrypted.**
+
 
 ### Security features
 

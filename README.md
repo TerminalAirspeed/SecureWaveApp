@@ -63,6 +63,29 @@ Screenshots from the **SecureWave 1.0.0-beta.3** Android public beta. Click a th
 |:---:|
 | <a href="screenshots/open-radio.png"><img src="screenshots/open-radio.png" alt="Open Radio unencrypted messaging screen" width="200"></a> |
 
+## SecureWave Radio Hardware Setup
+
+**SecureWave connects an Android smartphone to compatible radio equipment through an external audio/PTT interface, enabling encrypted messaging over radio without requiring Internet access.**
+
+<p align="center">
+  <a href="screenshots/securewave-radio-setup.jpg">
+    <img src="screenshots/securewave-radio-setup.jpg" alt="SecureWave Android phone connected to a handheld radio through a DigiRig interface" width="360">
+  </a>
+</p>
+
+<p align="center">
+  
+  **Example: SecureWave radio configuration showing an Android smartphone, handheld radio, and DigiRig audio/PTT interface.**
+ 
+ 
+ ## SecureWave Radio Hardware Setup
+
+
+
+**Note:** Radio compatibility, audio routing, PTT operation, and transmission authorization depend on the equipment and applicable radio regulations.
+ 
+**Note:** Radio compatibility, audio routing, PTT operation, and transmission authorization depend on the equipment and applicable radio regulations.
+
 > **Radio screenshot note:** The radio images show a test setup without a detected USB interface (Digirig Lite). **Open Radio is unencrypted.**
 
 ### Security features

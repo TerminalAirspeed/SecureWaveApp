@@ -1,7 +1,7 @@
 # SecureWave Proprietary Limited Beta Evaluation Terms — DRAFT
 
 **STATUS: NOT APPROVED. NOT AN ACTIVE LICENSE. DO NOT PUBLISH AS FINAL.**  
-**Licensor / copyright holder:** [LEGAL OWNER NAME OR ENTITY — REQUIRED]  
+**Licensor / copyright holder:** EGIS Solutions  
 **Version covered:** SecureWave 1.0.0-beta.5-r15 (Android application, package `com.securewave.alpha32`).
 
 ## 1. Limited permission

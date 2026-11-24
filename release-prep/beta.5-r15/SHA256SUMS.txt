@@ -1,0 +1,3 @@
+a3f571b9f9e9df70813f958154e0569842525eb23b2f0a3f424042fea84e9010  SecureWave-1.0.0-beta.5-r15.apk
+4a39e8c9349e3dd13f2a6a9b1bf54678362261144d91dc42762d067d444ec2ec  SecureWave-Quick-Start-beta5-r15-Numbered-Screens.pdf
+c79b728b30010acd629e0366ce7108107203388368e1802b9ccf1eccf7c6e0f3  SecureWave-User-Manual-beta5-r15-Numbered-Screens.pdf

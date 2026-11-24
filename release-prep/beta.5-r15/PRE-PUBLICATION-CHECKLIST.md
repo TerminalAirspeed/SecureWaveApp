@@ -11,8 +11,13 @@ Last staged source version: `1.0.0-beta.5-r15`, versionCode `491`.
 - [x] SHA-256 checked for APK and two numbered manuals.
 - [x] Source identity checked against r15 and source ZIP prepared separately.
 
+## Cleanup performed
+- [x] Removed obsolete beta.3 manuals and screenshots from the public default branch.
+- [x] Replaced the stale default-branch README with a release-preparation notice.
+- [ ] **Delete the separate public beta.3 GitHub Release and tag through the GitHub UI.** The current connector does not expose release deletion. Removing repository files did not delete uploaded release assets or historical commits.
+
 ## Must complete before release
-- [ ] Explicitly choose whether the beta release will be PUBLIC or confined to invited testers in a PRIVATE repository.
+- [x] Owner selected the existing PUBLIC `TerminalAirspeed/SecureWaveApp` repository for APK downloads; the proprietary Android Studio source remains PRIVATE.
 - [ ] Put proprietary source **only** in a private repository, with owner-controlled access.
 - [ ] Approve final legal owner/copyright and proprietary limited-evaluation license.
 - [ ] Confirm all third-party licensing notices are included.

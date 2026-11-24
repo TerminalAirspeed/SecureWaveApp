@@ -15,7 +15,7 @@ Last staged source version: `1.0.0-beta.5-r15`, versionCode `491`.
 - [x] Removed obsolete beta.3 manuals and screenshots from the public default branch.
 - [x] Replaced the stale default-branch README with a release-preparation notice.
 - [x] Owner deleted the **public beta.3 GitHub Release**. Verified release list is empty on November 24, 2026.
-- [ ] Old `v1.0.0-beta.3` **tag still exists**. Remove via GitHub Tags if desired; commit history may persist.
+- [x] Owner deleted the old `v1.0.0-beta.3` tag. Verified the specific GitHub tag reference returns 404 on November 24, 2026; historical commits and files may persist.
 
 ## Must complete before release
 - [x] Owner selected the existing PUBLIC `TerminalAirspeed/SecureWaveApp` repository for APK downloads; the proprietary Android Studio source remains PRIVATE.

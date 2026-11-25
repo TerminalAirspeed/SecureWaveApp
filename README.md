@@ -2,7 +2,7 @@
 
 **Proprietary Android communications application — Public Beta**
 
-> **Release preparation in progress.** The beta.5-r15 (version code 491) release is being checked for public testing. 
+The beta.5-r15 (version code 491) release is being checked for public testing. 
 SecureWave provides local authenticated encrypted text, encrypted file storage and exchange, verified contact pairing, and encrypted digital messaging using compatible radio/audio equipment. **Open Radio is deliberately unencrypted.** SecureWave does not request the Android `INTERNET` permission; external applications used to transport encrypted payloads have their own privacy and metadata practices.
 
 ## Distribution and licensing

@@ -41,7 +41,7 @@ The screenshots below are from the SecureWave project. They are **real applicati
 - **Secure Radio:** Encrypted radio/audio messaging using compatible equipment and authorized frequencies.
 - **Open Radio:** Unencrypted radio communication; **not** a confidential channel.
 - **Local-first design:** SecureWave does not request Android's `INTERNET` permission.
-- 
+  
 
 ## Downloads and installation
 

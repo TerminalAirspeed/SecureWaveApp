@@ -2,6 +2,8 @@
 
 **SecureWave is a proprietary Android application for secure, user-controlled communications and encrypted local files.**
 
+**Andriod only**
+
 SecureWave combines encrypted text preparation and exchange, an encrypted file vault, contact pairing, and radio/audio communication tools in one application. It is designed to operate without requesting Android's `INTERNET` permission; sharing encrypted messages through another app uses that app's separate network permissions and privacy practices.
 
 **SecureWave has NO INTERNET access**

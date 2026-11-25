@@ -5,6 +5,8 @@
 SecureWave combines encrypted text preparation and exchange, an encrypted file vault, contact pairing, and radio/audio communication tools in one application. It is designed to operate without Android's `INTERNET` permission; sharing encrypted messages through another app uses that app's separate network permissions and privacy practices.
 
 **SecureWave has NO INTERNET access**
+
+**SecureWave is currently in beta testing and is under active development.** User feedback is greatly appreciated and will help guide future improvements. I welcome suggestions for new features, usability enhancements, performance improvements, and any bugs or issues encountered. Your input will help make SecureWave more secure, reliable, and user-friendly.
 >
 > **SHA-256 checksum for SecureWave 1.0.0-beta.5-r15 APK is: a3f571b9f9e9df70813f958154e0569842525eb23b2f0a3f424042fea84e9010**
 

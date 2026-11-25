@@ -20,4 +20,4 @@ Please use GitHub Issues for non-sensitive bug reports. Do **not** post private 
 
 **Next release under review:** 1.0.0-beta.5-r15 · Android 10+
 
- SHA-256 checksum for SecureWave 1.0.0-beta.5-r15 APK is: a3f571b9f9e9df70813f958154e0569842525eb23b2f0a3f424042fea84e9010
+ **SHA-256 checksum for SecureWave 1.0.0-beta.5-r15 APK is: a3f571b9f9e9df70813f958154e0569842525eb23b2f0a3f424042fea84e9010**
